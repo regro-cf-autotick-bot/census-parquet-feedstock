@@ -1,5 +1,5 @@
 {% set name = "census-parquet" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/census-parquet-{{ version }}.tar.gz
-  sha256: 6efc6bb93f589c0bbea466ed44a5fea6346bb008910313d14e598a91987cdf5b
+  sha256: ab4c7867ef23a223a01454c459bdccb1334f50b4f492f3b50386dab307113843
 
 build:
   entry_points:
